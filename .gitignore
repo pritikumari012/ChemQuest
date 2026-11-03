@@ -1,0 +1,22 @@
+# Java build files
+*.class
+target/
+
+# Mac files
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Duplicate archives and temporary files
+*.zip
+pom copy.xml
