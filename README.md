@@ -6,36 +6,7 @@ ChemQuest is a Java-based Virtual Chemistry Lab designed to make chemistry learn
 
 The platform provides students with an opportunity to explore chemical elements, laboratory apparatus, virtual experiments, chemical reactions, and interactive quizzes through a modern desktop application.
 
-Built primarily using Java, ChemQuest combines an interactive graphical interface with a Spring Boot backend and MySQL database foundation.
-
----
-
-## 📸 Project Screenshots
-
-Explore the user interface and different modules of ChemQuest.
-
-### 1. Welcome Screen
-![Welcome Screen](screenshots/welcome.png)
-
-### 2. Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### 3. Periodic Table
-![Periodic Table](screenshots/periodic-table.png)
-
-### 4. Virtual Chemistry Lab
-![Virtual Lab](screenshots/virtual-lab.png)
-
-### 5. Laboratory Apparatus
-![Laboratory Apparatus](screenshots/apparatus.png)
-
-### 6. Experiments Module
-![Experiments](screenshots/experiments.png)
-
-### 7. Quiz Module
-![Quiz Module](screenshots/quiz.png)
-
-> Note: Add your actual project screenshots inside the `screenshots` folder using the filenames shown above. You can remove any screenshot section for a module you do not have a screenshot of.
+Built primarily using Java, ChemQuest combines an interactive graphical interface with a Spring Boot backend and MySQL database.
 
 ---
 
@@ -106,9 +77,10 @@ Explore the user interface and different modules of ChemQuest.
 
 ## 🏗️ System Architecture
 
-ChemQuest is organized into two major application components:
+ChemQuest is organized into three major components:
 
 ### 1. Frontend – Java Desktop Application
+
 The frontend is developed using Java Swing and JavaFX.
 
 It handles:
@@ -120,6 +92,7 @@ It handles:
 - Local demo authentication.
 
 ### 2. Backend – Spring Boot Application
+
 The backend is developed using Spring Boot.
 
 It provides:
@@ -130,11 +103,12 @@ It provides:
 - MySQL database interaction.
 
 ### 3. Database – MySQL
+
 MySQL is used as the relational database for backend data storage.
 
 JDBC provides connectivity between the Java backend application and MySQL.
 
-**Current integration note:** The backend authentication APIs are developed separately from the desktop application's local authentication. The desktop sign-up and login currently use local file-based storage. Complete frontend-to-backend authentication integration is a future enhancement.
+**Integration Status:** The backend authentication APIs are developed separately from the desktop application's local authentication. The desktop sign-up and login currently use local file-based storage. Complete frontend-to-backend authentication integration is a future enhancement.
 
 ---
 
@@ -161,8 +135,6 @@ ChemQuest/
 │   │           └── application.properties
 │   └── pom.xml
 │
-├── screenshots/
-│
 ├── 01_create_database.sql
 ├── pom.xml
 ├── mvnw
@@ -180,7 +152,7 @@ Before running ChemQuest, make sure you have:
 - JDK 21 or newer.
 - Git.
 - Internet connection for initial Maven dependency downloads.
-- MySQL Server (for backend database functionality).
+- MySQL Server for backend database functionality.
 
 JavaFX dependencies are resolved through Maven for supported operating systems and architectures.
 
@@ -241,7 +213,7 @@ The backend component uses Spring Boot, JDBC, and MySQL.
 
 The backend can be run and tested separately from the desktop application.
 
-> Note: Desktop application authentication currently uses local file storage, while backend authentication is handled through separately developed APIs.
+**Note:** Desktop application authentication currently uses local file storage, while backend authentication is handled through separately developed APIs.
 
 ---
 
@@ -291,8 +263,9 @@ B.Tech – Computer Science and Engineering (Data Science)
 
 GitHub: [@pritikumari012](https://github.com/pritikumari012)
 
-**Project Repository:**  
-[https://github.com/pritikumari012/ChemQuest](https://github.com/pritikumari012/ChemQuest)
+**Project Repository:**
+
+[ChemQuest – GitHub Repository](https://github.com/pritikumari012/ChemQuest)
 
 ---
 
